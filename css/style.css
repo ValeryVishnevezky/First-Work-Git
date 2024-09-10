@@ -17,4 +17,5 @@ body{
     align-items: center;
     cursor: pointer;
     margin: 0 auto;
+    transition: 1s;
 }
