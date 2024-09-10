@@ -1,6 +1,6 @@
 function onBallClick(){
     const ball = document.querySelector('.ball')
-    const newSize = ball.offsetWidth + 50
+    const newSize = ball.offsetWidth + getRandomInt(20, 60)
     ball.style.width = ball.style.height = newSize + 'px'
     ball.textContent = newSize
     if (newSize > 400) {
