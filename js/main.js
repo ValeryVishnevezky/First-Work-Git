@@ -1,4 +1,6 @@
 function onBallClick(){
 const ball = document.querySelector('.ball')
-console.log('Ball is clicked')
+const newSize = ball.offsetWidth + 50
+ball.style.width = ball.style.height = newSize + 'px'
+ball.textContent = newSize
 }
